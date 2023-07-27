@@ -38,7 +38,7 @@ capture.release()
 cv.destroyAllWindows()
 ~~~
 
-#### Error message -215:Assertion failed
+Error message -215:Assertion failed
 Could not find the media file, video run out of frames, it is done.
 
 13:00
