@@ -33,10 +33,10 @@ while True:
 
     if cv.waitKey(20) (?) & 0xFF == ord('d') (?):
         break
-~~~
 
 capture.release()
 cv.destroyAllWindows()
+~~~
 
 #### Error message -215:Assertion failed
 Could not find the media file, video run out of frames, it is done.
