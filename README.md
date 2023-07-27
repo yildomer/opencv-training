@@ -4,7 +4,7 @@
 
 python --version
 
-pip install opencv-contrib-python
+pip install opencv-contrib-python \
             opencv-python (main module)
 
 NumPy: scientific computing library
@@ -13,10 +13,10 @@ pip install caer (speed up workflow) (?)
 
 ## Reading Images and Videos
 
-import cv2 as cv
-variable = cv.imread('path')
-cv.imshow('nameofwindow', variable)
-cv.waitKey(0) 
+import cv2 as cv \
+variable = cv.imread('path') \
+cv.imshow('nameofwindow', variable) \
+cv.waitKey(0)
 - (keyboard binding) 
 
 ### Reading Videos
@@ -38,8 +38,7 @@ capture.release()
 cv.destroyAllWindows()
 ~~~
 
-Error message -215:Assertion failed
-
+Error message -215:Assertion failed \  
 Could not find the media file, video run out of frames, it is done.
 
 13:00
