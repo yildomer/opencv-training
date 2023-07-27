@@ -26,12 +26,14 @@ capture = cv.VideoCapture('path'/0/1/...)
 - 1: webcam 1 
 - ...
 
-    while True:
-        isTrue, frame = capture.read()
-        cv.imshow('nameWindow', frame)
+~~~
+while True:
+    isTrue, frame = capture.read()
+    cv.imshow('nameWindow', frame)
 
-        if cv.waitKey(20) (?) & 0xFF == ord('d') (?):
-            break
+    if cv.waitKey(20) (?) & 0xFF == ord('d') (?):
+        break
+~~~
 
 capture.release()
 cv.destroyAllWindows()
